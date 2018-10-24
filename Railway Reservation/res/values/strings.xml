@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Railway Reservation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_user_reg">UserRegActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_admin_login">AdminLoginActivity</string>
+    <string name="title_activity_admin_reg">AdminRegActivity</string>
+    <string name="title_activity_selection">Selection</string>
+    <string name="title_activity_user_request">UserRequest</string>
+    <string name="title_activity_user_cancel">UserCancel</string>
+    <string name="title_activity_view_feedback">ViewFeedback</string>
+    <string name="title_activity_feed_back_page">FeedBackPage</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="title_activity_new_train">NewTrain</string>
+    <string name="title_activity_update_train">UpdateTrain</string>
+    <string name="title_activity_profile_update">ProfileUpdate</string>
+
+</resources>

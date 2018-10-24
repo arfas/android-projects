@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_margin="1dp"
+    android:background="#DF3A01"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textQ7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="What is it like to fly with CMR Airlines ?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textA7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#456000"
+            android:text="Flying with CMR Airlines is FUN, AFFORDABLE &amp; EXCITING! As a low fare airline, Cmr believes that flying should be a means of transport for everyone &quot;flying for everyone&quot;. We aim to provide our passengers a totally unique flying experience that is safe, reliable and on-time with high level of passenger services."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textQ6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Does CMR Airlines provide any food or drinks onboard?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textA6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#456000"
+            android:text="CMR sells hot meals/snacks/refreshments and beverages on selected flights.Payment for the same will be accepted in INR only."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textQ5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="What type of aircraft does CMR fly?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textA5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#456000"
+            android:text="flies Boeing 737-800&apos;s and 737-900 ER&apos;s configured with single class with a seating capacity of 189 and 212 respectively. In addition to this SpiceJet has added the Q400 NextGen turboprop aircraft from Bombardier, which can accommodate 78 passengers on a single class configuration."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textQ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="When will CMR be flying to new destinations?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textA4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#456000"
+            android:text="Aim is to provide affordable efficient air travel. To achieve this objective,CMR will regularly add services to new destinations. Information about the same shall be conveyed to patrons via suitable means of communication."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textQ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Does CMR  offer a frequent flyer program?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textA3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#456000"
+            android:text="No, we do not offer a frequent flyer program."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</ScrollView>

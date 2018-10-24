@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#457689"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/npwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:textColor="#CC0440"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/rpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:textColor="#CC0440"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/nmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="New E-mail Id"
+        android:inputType="textEmailAddress"
+        android:textColor="#CC0440"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/nphno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="New Phone Number"
+        android:inputType="phone"
+        android:textColor="#CC0440"
+        android:textColorHint="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/bnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Update"
+            android:textColor="#f3f6ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Cancel"
+            android:textColor="#f3f6ff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

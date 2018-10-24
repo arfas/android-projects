@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#088A08" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#088A08"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/eluser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#DF3A01"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textColor="#F2F2F2"
+            android:textColorHint="#F2F2F2" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/elpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#DF3A01"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="#F2F2F2"
+            android:textColorHint="#F2F2F2" />
+
+        <Button
+            android:id="@+id/blsign"
+            style="@android:style/Animation.Toast"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="15dp"
+            android:background="#F2F2F2"
+            android:text="Sign In "
+            android:textSize="20dp"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="5dp"
+            android:layout_margin="7dp"
+            android:background="#F2F2F2" >
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#DF3A01" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/ename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:textColor="#F2F2F2"
+                    android:textColorHint="#F2F2F2" />
+
+                <EditText
+                    android:id="@+id/pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="#F2F2F2"
+                    android:textColorHint="#F2F2F2" />
+
+                <EditText
+                    android:id="@+id/rpwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Conform Password"
+                    android:inputType="textPassword"
+                    android:textColor="#F2F2F2"
+                    android:textColorHint="#F2F2F2" />
+
+                <EditText
+                    android:id="@+id/mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Email ID"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#F2F2F2"
+                    android:textColorHint="#F2F2F2" />
+
+                <EditText
+                    android:id="@+id/phno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Phone "
+                    android:inputType="phone"
+                    android:textColor="#F2F2F2"
+                    android:textColorHint="#F2F2F2" />
+
+                <Button
+                    android:id="@+id/blregister"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="15dp"
+                    android:background="#F2F2F2"
+                    android:text="Don&apos;t have account ? Sign In"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</ScrollView>

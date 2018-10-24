@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DF3A01"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="@drawable/as" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/bbook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/drawer_shadow"
+            android:drawableRight="@drawable/drawer_shadow"
+            android:text="Book"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bmyBook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/drawer_shadow"
+            android:drawableRight="@drawable/drawer_shadow"
+            android:text="My Booking"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/bdetails"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/drawer_shadow"
+            android:drawableRight="@drawable/drawer_shadow"
+            android:text="T* &amp; C*"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bdeals"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/drawer_shadow"
+            android:drawableRight="@drawable/drawer_shadow"
+            android:text="Deals"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</LinearLayout>

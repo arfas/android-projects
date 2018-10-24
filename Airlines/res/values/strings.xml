@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AirLines</string>
+    <string name="action_settings">About</string>
+    <string name="action_setting">Logout</string>
+    
+    <string name="framgment1">Fragment 1</string>
+    <string name="framgment2">Fragment 2</string>
+    <string name="framgment3">Fragment 3</string>
+    <string name="framgment4">Fragment 4</string>
+    <string name="framgment5">Fragment 5</string>
+    <string name="drawer_open">Open the Drawer</string>
+    <string name="drawer_close">Close the Drawer</string>
+
+    <string-array name="fragments">
+        <item>Home</item>
+        <item>Notification</item>
+        <item>Contact Us</item>
+        <item>Deals</item>
+        <item>Faqs</item>
+    </string-array>
+
+    <string name="title_activity_book">Book</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_booking">MyBooking</string>
+    <string name="title_activity_flight_details">FlightDetails</string>
+
+</resources>

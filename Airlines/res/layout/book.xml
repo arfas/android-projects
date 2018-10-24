@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DF3A01" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edphonebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#088A08"
+            android:ems="10"
+            android:hint="Enter Phone Number "
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="#F2F2F2"
+            android:textColorHint="#F2F2F2"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Select From : "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F2F2F2" />
+
+        <Spinner
+            android:id="@+id/fromSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#F2F2F2"
+            android:popupBackground="#F2F2F2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Select Destination :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F2F2F2" />
+
+        <Spinner
+            android:id="@+id/toSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#F2F2F2"
+            android:popupBackground="#F2F2F2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:id="@+id/textew3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date Of Journey"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F2F2F2"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#088A08"
+                android:text="DATE"
+                android:textColor="#F2F2F2"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bBook12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#088A08"
+            android:text="Book Flight"
+            android:textColor="#F2F2F2"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</ScrollView>

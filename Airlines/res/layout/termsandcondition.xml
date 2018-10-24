@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/atc"
+            android:text="The carriage of a Passenger is subject to CMR regulations relating to the conditions of Non-International Carriage (Passenger and Baggage) framed in accordance with The Carriage by Air Act, 1972 and Notification regarding application of the Carriage which is non-international. These regulations are known as CMR Non-International Carriage (passenger and baggage) Regulations 1992. The liability of the company for damage sustained in the event of the death or wounding of a passenger or any other bodily injury suffered by a passenger or by his registered baggage during the course of carriage by air will be governed by the provisions of sections 4,5,6 and the rules contained in the Second Schedule of Carriage by Air Act 1972 with certain exceptions, adaptations, modifications, etc. as notified in the Govt. of India, Ministry of Civil Aviation Notification and as amended from time to time. All disputes shall be subject to jurisdiction of Delhi only."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#088A08"
+            android:text="1. All Passengers, including children and infants, must present valid identification at check-in. It is your responsibility to ensure you have the appropriate travel documents at all times.\n 2.All Foreign Nationals/Non-Indian Nationals/NRI need to carry their Passport with valid documents for their travel to Port Blair(Andaman and Nicobar Island). All NRI must have PIO(person of indian origin) or Passport with valid documents.\n 3. Check-in starts &quot;2 hours&quot; before scheduled departure, and closes 45 minutes prior to the scheduled departure time. Passengers are requested to report at least 2 hours prior to departure time, at CMR Check-in counters.\n 4. Cancellation / Changes within &quot;2 hours&quot; prior to the scheduled departure time or failure to check-in for a CMR flight at least 45 minutes prior to the scheduled departure time will result in the fare being forfeited.\n 5. All promo/sale fares are restrictive fares and are non-refundable. Certain promo/sale fares do not permit changes to the flight. Please check restrictions on the fare while booking.\n 6. In the event of cancellation of non-cancellable ticket(s), the passengers shall only be refunded the amount paid towards any kind of taxes/ duties/ levies and/ or fees.\n 7. With effect from 1st Feb 2016, for all domestic sectors any change/cancellation to your booking will attract a fee of 1899 INR per passenger per sector per change. If the same fare is not available at the time of change, the difference in fares will also be applied in addition to the change fee plus changes to any applicable fees. All fees are subject to change without notice.\n 8.Itinerary printouts with the name of the Passenger will be checked at the time of entering the terminal and at the check-in counter. Passengers who do not have the same are requested to collect the printouts from the SpiceJet office located outside the departure terminal. A charge of INR 100/- will be levied for each print of an Itinerary / Ticket from any of the SpiceJet Ticketing Counters / Offices across India (charges not applicable for fresh bookings). This fee is applicable only on requests for a print of an existing itinerary / ticket, already paid for. Please note the Itinerary Printout Fee towards re-printing of each Itinerary Ticket is reflected under the &quot;Itinerary Printout Fee - INR 100&quot; column on the printout."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F2F2F2"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</ScrollView>
